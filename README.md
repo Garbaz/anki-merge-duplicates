@@ -4,7 +4,7 @@ A simple anki addon to merge duplicate notes into a single note.
 
 ## Installation
 
-Install the addon from [AnkiWeb](https://ankiweb.net/share/addons/) or manually my cloning this repo in `{Anki Directory}/addons21/`.
+Install the addon from [AnkiWeb](https://ankiweb.net/shared/info/55394168) or manually my cloning this repo in `{Anki Directory}/addons21/`.
 
 ## Usage
 
