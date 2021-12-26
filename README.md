@@ -26,7 +26,7 @@ and press "Merge duplicate notes".
 
 The first two notes, their first field being equal, will be detected as duplicates of each other. So these two notes will be combined into one note, whereas the "apple" note will remain untouched.
 
-For the "Description" field, the first note has the bigger value, so the merged note will have it's "Description" value. For the "Audio" field however, the second note has the bigger value (the field being empty for the first note), so the merged note will have it's "Audio" value.
+For the "Description" field, the first note has the longer value, so the merged note will have it's "Description" value. For the "Audio" field however, the second note has the longer value (the field being empty for the first note), so the merged note will have it's "Audio" value.
 
 The tags will be combined of the two notes.
 
