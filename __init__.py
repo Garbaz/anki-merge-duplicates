@@ -8,7 +8,7 @@ from aqt import gui_hooks
 
 def merge_notes(note0: Note, note: Note) -> None:
     for f in note.keys():
-        if f in note0 and note[f] > note0[f]:
+        if f in note0 and len(note[f]) > len(note0[f]):
             note0[f] = note[f]
 
     for t in note.tags:
