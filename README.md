@@ -12,8 +12,6 @@ Select any number of notes/cards in the browser, right-click, and press "Merge d
 
 Of all the selected notes, any duplicates (i.e. the first field being equal) will be merged together, always taking the longer value of each field. The tags of all notes are combined, i.e. the merged note will have all the tags any of the original notes had.
 
-Importantly, this will _not_ merge all selected notes.
-
 Say for example you select these notes:
 
 Word | Description | Audio | tags
