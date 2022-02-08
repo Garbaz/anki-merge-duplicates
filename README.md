@@ -41,4 +41,4 @@ Currently the addon has no configuration.
 
 Though if you are comfortable with Python and want to change something, you should be able to just change the addon yourself, it's very small. Click "View files" in the addon menu in Anki to get to the folder, and open `__init__.py`.
 
-_Note:_ If you have installed the addon from AnkiWeb, whenever I push an update of the addon there, any local changes will be overwritten. If you install the addon manually, this will not happen. 
+_Note:_ If you have installed the addon from AnkiWeb, if I ever push an update of the addon there, any local changes will be overwritten when it gets updated. If you install the addon manually, this will not happen. 
