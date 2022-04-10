@@ -25,19 +25,20 @@ def merge_duplicates(browser: Browser) -> None:
 
     for card in cards:
         note = card.note()
-        if note.id not in [n.id for n in notes]:
-            notes.append(note)
+        if note.id not in [n.id for n,_ in notes]:
+            notes.append((note, card.reps))
 
     dups: dict[list[Note]] = {}
-    for note in notes:
+    for note, reps in notes:
         fields = note.items()
-        dups.setdefault(fields[0], []).append(note)
+        dups.setdefault(fields[0], []).append((note, reps))
 
     browser.model.beginReset()
     browser.mw.checkpoint("merge fields of duplicates")
 
     del_note_ids = []
     for dupl in dups.values():
+        dupl = [note for note, reps in sorted(dupl, key=lambda x: -x[1])] 
         for i in range(1, len(dupl)):
             merge_notes(dupl[0], dupl[i])
             del_note_ids.append(dupl[i].id)
