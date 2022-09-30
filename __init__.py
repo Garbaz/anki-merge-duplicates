@@ -27,7 +27,10 @@ def merge_notes(note0: Note, note: Note, mode: str) -> None:
 
 
 def merge_duplicates(browser: Browser) -> None:
-    mode = config.get("merge_mode", "longer")
+    try:
+        mode = config.get("merge_mode", "longer")
+    except:
+        mode = "longer"
     cardids = browser.selectedCards()
     cards = [mw.col.getCard(id) for id in cardids]
     notes = []
