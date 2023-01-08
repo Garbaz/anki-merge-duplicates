@@ -10,7 +10,7 @@ Install the addon from [AnkiWeb](https://ankiweb.net/shared/info/55394168) or ma
 
 Select any number of notes/cards in the browser, right-click, and press "Merge duplicate notes".
 
-Of all the selected notes, any duplicates (i.e. the first field being equal) will be merged together. The merging strategy can be configured, see bellow. The tags of all notes are combined, i.e. the merged note will have all the tags any of the original notes had.
+Of all the selected notes, any duplicates (i.e. the first field being equal) will be merged together. The merging strategy can be configured, see below. The tags of all notes are combined, i.e. the merged note will have all the tags any of the original notes had.
 
 Say for example you select these notes:
 
@@ -24,7 +24,7 @@ and press "Merge duplicate notes".
 
 The first two notes, their first field being equal, will be detected as duplicates of each other. So these two notes will be combined into one note, whereas the "apple" note will remain untouched.
 
-When two notes that get merged have different values in one field, the default strategy is to pick the longer one.In the example for the "Description" field, the first note has the longer value, so the merged note will have it's "Description" value. For the "Audio" field however, the second note has the longer value (the field being empty for the first note), so the merged note will have it's "Audio" value.
+When two notes that get merged have different values in one field, the default strategy is to pick the longer one. In the example for the "Description" field, the first note has the longer value, so the merged note will have it's "Description" value. For the "Audio" field however, the second note has the longer value (the field being empty for the first note), so the merged note will have it's "Audio" value.
 
 The tags will be combined of the two notes.
 
