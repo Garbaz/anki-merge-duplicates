@@ -12,8 +12,9 @@ def merge_notes(note0: Note, note: Note, mode: str) -> None:
         if f in note0 and note0[f] != note[f]:
             if mode == "concat":
                 note0[f] += note[f]
-            elif mode == "longer" and len(note[f]) > len(note0[f]):
-                note0[f] = note[f]
+            elif mode == "longer"
+                if len(note[f]) > len(note0[f]):
+                    note0[f] = note[f]
             elif mode == "skip":
                 raise ValueError("Conflicting entries")
             else:
