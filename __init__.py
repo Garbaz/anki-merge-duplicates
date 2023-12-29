@@ -73,6 +73,7 @@ def merge_duplicates(browser: Browser) -> None:
 def setup_context_menu(browser: Browser):
     menu = browser.form.menu_Cards
     merge_action = menu.addAction("Merge duplicate notes")
+    merge_action.setShortcut(QKeySequence("Ctrl+M"))
     qconnect(merge_action.triggered, browser.onMergeDuplicates)
 
 
