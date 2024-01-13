@@ -15,6 +15,8 @@ def merge_notes(note0: Note, note: Note, mode: str) -> None:
             elif mode == "longer":
                 if len(note[f]) > len(note0[f]):
                     note0[f] = note[f]
+            elif mode == "first":
+                pass # No-op, note0 already has its own info which it's keeping.
             elif mode == "skip":
                 raise ValueError("Conflicting entries")
             else:
