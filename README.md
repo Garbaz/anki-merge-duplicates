@@ -40,8 +40,9 @@ apple | a round, red or green fruit | | fruit
 Currently the configuration has only one option `merge_mode`, it can be set to the following values:
 * `longer` (default) – The longer content of the notes will be kept for the merged note, see above.
 * `concat` – The contents of both notes will be concatenated for the new note.
+* `first` – Keep the field contents of the first card only.
 * `skip` – Notes will only get merged if there are no conflicting fields. Merges will only happen if for all fields both notes have the same value or one note has no value.
 
 If you are comfortable with Python and want to change something, you should be able to just change the addon yourself, it's very small. Click "View files" in the addon menu in Anki to get to the folder, and open `__init__.py`.
 
-_Note:_ If you have installed the addon from AnkiWeb, if I ever push an update of the addon there, any local changes will be overwritten when it gets updated. If you install the addon manually, this will not happen. 
+_Note:_ If you have installed the addon from AnkiWeb, if I ever push an update of the addon there, any local changes will be overwritten when it gets updated. If you install the addon manually, this will not happen.
