@@ -46,3 +46,11 @@ Currently the configuration has only one option `merge_mode`, it can be set to t
 If you are comfortable with Python and want to change something, you should be able to just change the addon yourself, it's very small. Click "View files" in the addon menu in Anki to get to the folder, and open `__init__.py`.
 
 _Note:_ If you have installed the addon from AnkiWeb, if I ever push an update of the addon there, any local changes will be overwritten when it gets updated. If you install the addon manually, this will not happen.
+
+## Development
+
+I ([Garbaz](https://github.com/Garbaz/)) no longer use Anki.
+
+If you want to see a feature added or a bug fixed, have a go yourself and send a pull request :) This add-on really is very simple, so even if you have never worked on an Anki add-on, don't be shy! ^^
+
+To get started, take a look at the [official introduction](https://addon-docs.ankiweb.net/intro.html), and the source code for [`aqt`](https://github.com/ankitects/anki/tree/main/qt/aqt) and [`anki`](https://github.com/ankitects/anki/tree/main/pylib/anki) as an API reference.
