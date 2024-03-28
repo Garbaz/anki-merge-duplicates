@@ -49,7 +49,7 @@ _Note:_ If you have installed the addon from AnkiWeb, if I ever push an update o
 
 ## Development
 
-I ([Garbaz](https://github.com/Garbaz/)) no longer use Anki.
+I (Garbaz) no longer use Anki.
 
 If you want to see a feature added or a bug fixed, have a go yourself and send a pull request :) This add-on really is very simple, so even if you have never worked on an Anki add-on, don't be shy! ^^
 
